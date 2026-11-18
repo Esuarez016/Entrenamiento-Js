@@ -1,0 +1,11 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: sans-serif; padding: 2em; }
+
+.pokemons { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1em; }
+.pokemon { background: lightblue; height: 100px; display: flex; justify-content: center; align-items: center; position: relative; }
+.ver-pokemon { position: absolute; top: 5px; right: 5px; }
+
+#btn-combatir { margin-top: 2em; padding: 0.5em 1em; }
+
+.modal { display: none; position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.5); justify-content: center; align-items: center; }
+.modal-content { background:white; padding: 2em; border-radius: 10px; text-align:center; }

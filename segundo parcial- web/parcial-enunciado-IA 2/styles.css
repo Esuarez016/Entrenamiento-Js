@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* PRIMER CONTENIDO */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primer-contenido {
+    border: 2px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+    margin: 30px;
+    width: 350px;
+    min-height: 150px; /* PARA QUE LOS ELEMENTOS NO SE SALGAN DE LA CAJA */
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#nombre-producto, #btnAgregar {
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.contenedor-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* SEGUNDO CONTENIDO */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.segundo-contenido {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 30px;
+    width: 350px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+
+#opciones-turno {
+    padding: 6px;
+    font-size: 1rem;
+}
+
+#nombre, #contrasenia {
+    padding: 6px;
+    font-size: 1rem;
+}
+
+#btnRegistrar {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+#mensaje{
+    font-size: 18px;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}

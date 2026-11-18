@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 900px;
+    margin: auto;
+}
+
+header {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+footer {
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* PRIMERA SECCION */
+.primera-seccion {
+    border: 2px solid black;
+    margin: 2px -15px;
+    padding: 20px;
+    flex: 2;
+}
+
+.contenedor-botones {
+    flex: 2;
+}
+
+#universidad {
+    margin: 15px 0;
+    width: 250px;
+    height: 30px;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 1rem;
+    border: 3px solid black;
+}
+
+/* SEGUNDA SECCION */
+.segunda-seccion {
+    border: 2px solid black;
+    margin: 2px;
+    padding: 20px;
+    flex: 1;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+.btn-celeste {
+    background-color: skyblue;
+}
+
+.celeste {
+    background-color: skyblue;
+    color: white;
+}
+
+.btn-violeta {
+    background-color: violet;
+}
+
+.violeta {
+    background-color: violet;
+    color: white;
+}
+
+.btn-naranja {
+    background-color: orange;
+}
+
+.naranja {
+    background-color: orange;
+    color: white;
+}
+
+.btn-reset {
+    background-color: lightgray;
+}
+
+#reset {
+    background-color: lightgray;
+}

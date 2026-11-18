@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi parcial 2</title>
+</head>
+
+<body>
+    <header>
+        <h1>Personalización</h1>
+    </header>
+
+    <section class="primer-contenido">
+
+        <div class="inputs">
+            <label for="nombre">Ingresa un texto:</label>
+            <input type="text" id="texto">
+            <label for="opcion-fondo">Cambiá el fondo:</label>
+            <select id="opcion-fondo">
+                <option value="">Selecciona un color</option>
+                <option name="opcion" value="rojo">Rojo</option>
+                <option name="opcion" value="celeste">Celeste</option>
+                <option name="opcion" value="verde">Verde</option>
+                <option name="opcion" value="amarillo">Amarillo</option>
+            </select>
+        </div>
+
+        <div class="caja">
+            <p id="texto-resultado">Texto a modificar</p>
+        </div>
+
+    </section>
+
+    <h2>Formulario</h2>
+
+    <section class="segundo-contenido">
+
+        <form id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre">
+
+            <h4>Provincia</h4>
+            <div class="opcion-provincia">
+                <input type="radio" name="provincia" value="buenos-aires">Buenos Aires
+                <input type="radio" name="provincia" value="cordoba">Córdoba
+                <input type="radio" name="provincia" value="tierra-del-fuego">Tierra del Fuego
+                <input type="radio" name="provincia" value="Misiones">Misiones
+            </div>
+
+            <button type="submit" id="btnEnviar">Enviar</button>
+        </form>
+
+        <p id="mensaje"></p>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

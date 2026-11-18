@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Modelo 11 - LocalStorage</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2em;
+    }
+
+    label,
+    button {
+      display: block;
+      margin-top: 0.5em;
+    }
+
+    #mensaje {
+      margin-top: 1em;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Guardar usuario en LocalStorage</h2>
+  <label>Nombre: <input type="text" id="usuario"></label>
+  <button id="btnGuardar">Guardar usuario</button>
+  <p id="mensaje"></p>
+  <script src="parcial21.js"></script>
+</body>
+
+</html>
+<!--Modelo 11 – Control de sesión con LocalStorage
+
+Enunciado:
+
+Ingresar nombre de usuario.
+
+Al presionar “Guardar usuario”, se guarda en localStorage.
+
+Mostrar mensaje “Usuario guardado: [nombre]”.
+
+Al cargar la página, si ya existe usuario guardado, mostrar automáticamente.

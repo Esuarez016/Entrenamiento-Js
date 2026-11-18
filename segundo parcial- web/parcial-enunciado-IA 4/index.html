@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Parcial Enunciado IA 4</title>
+</head>
+
+<body>
+    <header>
+        <h1>Gestión de Películas</h1>
+    </header>
+
+    <section class="primera-seccion">
+        <label for="pelicula">Nombre:</label>
+        <input type="text" id="pelicula">
+
+        <h4>Selecciona un color</h4>
+        <div class="radios">
+            <input type="radio" name="color" value="rojo">Rojo
+            <input type="radio" name="color" value="azul">Azul
+            <input type="radio" name="color" value="verde">Verde
+        </div>
+
+        <button id="btnAplicar">Aplicar</button>
+
+        <div class="card-pelicula">
+            <h2 id="titulo"></h2>
+        </div>
+
+        <p id="mensaje"></p>
+
+    </section>
+
+    <section class="segunda-seccion">
+        <label for="nombre">Nombre de la película:</label>
+        <input type="text" id="nombre">
+
+        <select id="genero">
+            <option value="">Seleccione un género</option>
+            <option value="accion">Acción</option>
+            <option value="comedia">Comedia</option>
+            <option value="terror">Terror</option>
+            <option value="ciencia-ficcion">Ciencia Ficción</option>
+            <option value="romance">Romance</option>
+        </select>
+
+        <button id="btnGuardar">Guardar película</button>
+
+        <p id="resultado-guardar"></p>
+        
+        <button id="btnMostrar">Mostrar películas</button>
+
+        <ul id="lista"></ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

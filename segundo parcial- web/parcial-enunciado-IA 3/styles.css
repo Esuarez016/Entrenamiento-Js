@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.primera-seccion {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    min-height: 200px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.primera-seccion input {
+    padding: 5px;
+    margin: 10px 0 10px 0;
+}
+
+#btnGuardar {
+    padding: 15px;
+    margin: 15px;
+}
+
+#mensaje {
+    text-align: center;
+}
+
+.segunda-seccion {
+    display: flex;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 10px;
+    flex-direction: column;
+    min-height: 200px;
+    width: 200px;
+}
+
+h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mostrarContacto {
+    padding: 15px;
+    margin: 15px;
+}
+
+.contenedor-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

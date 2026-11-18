@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Modelo 10 - Registro</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2em;
+    }
+
+    label,
+    button {
+      display: block;
+      margin-top: 0.5em;
+    }
+
+    #resultado {
+      margin-top: 1em;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Registro de contraseña</h2>
+  <label>Contraseña: <input type="password" id="pass"></label>
+  <label>Confirmar contraseña: <input type="password" id="confirmPass"></label>
+  <button id="btnRegistrar">Registrar</button>
+  <p id="resultado"></p>
+  <script src="parcial20.js"></script>
+</body>
+
+</html>
+<!--Modelo 10 – Registro de contraseña
+
+Enunciado:
+
+Ingresar contraseña y confirmarla.
+
+Al presionar “Registrar”, mostrar “Contraseña registrada correctamente” si coinciden.
+
+Si no coinciden, mostrar “Las contraseñas no coinciden”.

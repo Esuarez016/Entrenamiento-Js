@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elige tu Pokémon</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Elige la criatura para jugar</h1>
+    </header>
+    <main>
+        <section class="pokemons">
+            <div id="pokemon1" class="pokemon">
+                <button class="ver-pokemon">Ver</button>
+                <img src="" alt="Imagen Pokemon 1">
+            </div>
+            <div id="pokemon2" class="pokemon">
+                <button class="ver-pokemon">Ver</button>
+                <img src="" alt="Imagen Pokemon 2">
+            </div>
+            <div id="pokemon3" class="pokemon">
+                <button class="ver-pokemon">Ver</button>
+                <img src="" alt="Imagen Pokemon 3">
+            </div>
+            <div id="pokemon4" class="pokemon">
+                <button class="ver-pokemon">Ver</button>
+                <img src="" alt="Imagen Pokemon 4">
+            </div>
+
+            <input type="radio" name="pokemon" id="pokemon1-radio" value="1">
+            <input type="radio" name="pokemon" id="pokemon2-radio" value="2">
+            <input type="radio" name="pokemon" id="pokemon3-radio" value="3">
+            <input type="radio" name="pokemon" id="pokemon4-radio" value="4">
+        </section>
+        <button id="btn-combatir" disabled>Combatir</button>
+    </main>
+
+    <section id="modal" class="modal">
+        <article class="modal-content">
+            <p id="modal-text"></p>
+            <button id="cerrar-modal">Aceptar</button>
+        </article>
+    </section>
+
+    <script src="parcial10.js"></script>
+</body>
+
+</html>
+<!--Enunciado del Parcial (Modelo Pokémon – 15 a 30 min)
+
+Debés completar la lógica JavaScript para que la página funcione según estas reglas:
+
+Al presionar el botón Ver en un Pokémon, se debe mostrar un modal con el texto “Pokemon X” (X = número de Pokémon) y un botón “Aceptar” para cerrar el modal.
+
+El botón Combatir debe estar deshabilitado hasta que el usuario seleccione un Pokémon con los inputs radio.
+
+Al presionar Combatir, se debe guardar en localStorage el ID del Pokémon seleccionado y redirigir a la página combatir.html.
+
+En combatir.html mostrar el Pokémon seleccionado usando localStorage. Además, incluir un botón “Volver” que regrese a la página principal.

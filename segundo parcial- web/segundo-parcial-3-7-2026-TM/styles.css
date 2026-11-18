@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*PRIMER CONTENIDO*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.primer-contenido {
+    border: 3px solid black;
+    display: flex;
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    width: 50%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    gap: 5px;
+}
+
+select, #texto {
+    padding: 5px;
+    width: 200px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+select {
+    cursor: pointer;
+}
+
+.inputs label {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.caja {
+    border: 3px solid black;
+    width: 250px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.celeste {
+    background-color: lightblue;
+}
+
+.verde {
+    background-color: green;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+/*SEGUNDO CONTENIDO*/
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.segundo-contenido {
+    border: 3px solid black;
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#nombre {
+    padding: 5px;
+    width: 100%;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+.opcion-provincia {
+    gap: 5px;
+    display: flex;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#mensaje {
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

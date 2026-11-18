@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Parcial enunciado IA</title>
+</head>
+
+<body>
+    <header>
+        <h1>Perfil personal</h1>
+    </header>
+
+    <section class="primera-seccion">
+        <div class="inputs">
+
+            <h4>Nombre:</h4>
+            <input type="text" id="nombre">
+            <h4>Color del borde:</h4>
+            <select id="color-borde">
+                <option value="">Seleccione un color</option>
+                <option value="rojo">Rojo</option>
+                <option value="verde">Verde</option>
+                <option value="celeste">Celeste</option>
+                <option value="violeta">Violeta</option>
+            </select>
+
+        </div>
+
+        <div class="tarjeta" id="tarjeta">
+            <p id="resultado"></p>
+        </div>
+
+    </section>
+
+    <h2>Formulario</h2>
+
+    <section class="segunda-seccion">
+        <form id="formulario">
+
+            <h4>Email:</h4>
+            <input type="text" id="email">
+            <h4>Edad:</h4>
+            <input type="number" id="edad">
+
+            <h4>Genero:</h4>
+            <div class="opciones-genero">
+                <input type="radio" name="genero" value="masculino">Masculino
+                <input type="radio" name="genero" value="femenino">Femenino
+                <input type="radio" name="genero" value="otro">Otro...
+            </div>
+
+            <button type="submit" id="btn-enviar">Registrarse</button>
+
+        </form>
+
+        <p id="mensaje"></p>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- Parcial - Personalización de Perfil
+
+Desarrollar una página web que permita personalizar una tarjeta de perfil y validar un formulario de registro.
+
+La página debe tener dos secciones.
+
+Primera sección
+
+Debe contener:
+Un input donde el usuario escriba un nombre.
+Un select para elegir el color del borde de una tarjeta.
+Una tarjeta donde se mostrará el nombre ingresado.
+Funcionalidades
+Mientras el usuario escribe, el nombre debe aparecer en la tarjeta.
+Al cambiar el select, debe modificarse el color del borde de la tarjeta.
+Los colores disponibles son:
+Rojo
+Verde
+Azul
+Negro
+Segunda sección
+
+Debe contener un formulario con:
+Email
+Edad
+Género (radio buttons)
+
+Opciones:
+Masculino
+Femenino
+Otro
+
+Botón:
+Registrarse
+
+Validaciones
+
+Al enviar:
+El email debe contener el carácter @
+La edad debe ser mayor o igual a 18
+Debe seleccionarse un género
+
+Si alguna validación falla mostrar el mensaje correspondiente.
+
+Si todo es correcto mostrar:
+
+Registro realizado correctamente -->
